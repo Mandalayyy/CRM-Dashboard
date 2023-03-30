@@ -1,4 +1,13 @@
 {
+  "private": true,
+  "homepage": "https://Mandalayyy.github.io/CRM-Dashboard",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.7.3",
